@@ -10,5 +10,5 @@ reddit = praw.Reddit(
     client_secret=os.getenv("REDDIT_CLIENT_SECRET"),
     password=os.getenv("REDDIT_PASSWORD"),
     username=os.getenv("REDDIT_USERNAME"),
-    user_agent="script:MyBot:v1.0"
+    user_agent="script:GrowGrowGrowCounterBot:v1.0 (by u/JBOSS_64)"
 )
